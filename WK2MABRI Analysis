@@ -1,0 +1,38 @@
+#C+P from Repl https://repl.it/@AJChau/WK2-MABRI-Analysis
+import tbapy
+
+#You need to get your own auth key from TBA
+tba = tbapy.TBA("authkey")
+
+#prints event list
+event_list = tba.events("2019",keys = True)
+print(event_list)
+
+print("\n"*5)
+
+#team list
+event = "2019mndu2"
+team_list = tba.event_teams(event, keys = True)
+print(team_list)
+
+print("\n"*5)
+
+#match list
+match_list = tba.event_matches(event, keys =True)
+print(match_list)
+
+print("\n"*5)
+
+match = "2019mabri_f1m2"
+match_dictionary = tba.match(match)
+print(match_dictionary)
+
+red_score = match_dictionary["alliances"]["red"]["score"]
+red_alliance = match_dictionary["alliances"]["red"]["team_keys"]
+red_hab_points = match_dictionary["score_breakdown"]["red"]["habClimbPoints"]
+
+f = open("numberteam.txt","w") 
+#f.write( repr(red_alliance))
+f.write (repr(red_hab_total))
+#f.write(repr(red_score))
+f.close()
