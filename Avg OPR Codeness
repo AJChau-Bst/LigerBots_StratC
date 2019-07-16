@@ -1,0 +1,35 @@
+#uploaded from Repl. https://repl.it/@AJChau/Official-OPR-Code-Ness
+#importing the most random of things
+import numpy as np
+import pandas as pd
+import xlrd
+from pandas import ExcelWriter
+import xlsxwriter
+
+
+
+#Reading Excel, pulling them together, calculating the mean, then printing in terminal
+j = pd.read_excel("Copy of wk2_se_mass.xlsx")
+j.TeamNumber = j.TeamNumber.astype(int)
+p = (j.groupby("TeamNumber").mean())
+pd.set_option('display.max_rows', 500)
+print (p)
+
+'''
+#print by organization of Team Number
+f = open("numberteam.txt","w") 
+f.write( repr(p))
+f.close() 
+
+#print just team number
+r = open("JustTeams.txt","w") 
+r.write( repr(j.TeamNumber))
+r.close() 
+
+g=open("numberteam.txt")
+gteam=[]
+for i in g.read():
+  gteam.append(i)
+
+
+
