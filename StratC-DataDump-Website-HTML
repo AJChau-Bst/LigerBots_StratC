@@ -1,0 +1,47 @@
+#imported from Repl. https://repl.it/@AJChau/Data-Website or https://Data-Website--ajchau.repl.co
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+
+    <h1 id="myHeader">ROBOTS!</h1>
+    <h2 align="center">FRC Team LigerBots 2877</h2>
+    <h2 align="center">Strategy Council's Data Dump Site</h2>
+    <h3 align="center">And maybe helpful stuffs... </h3>
+    <h4 align="center">Designed as if this was during the 1990s. Why? Because I can't program </h4>
+
+  <hr>
+   <h3 id ="myHeader2">Useful Spreadsheet Links </h3>
+    <a href=https://docs.google.com/spreadsheets/d/1HhPfZcBcHrUDkPoOYH-gngx_ibxmLlNSRo5EzmNDRuw/edit#gid=1829481195>Fantasy FRC 2019</a>
+    <br>
+    <a
+    href=https://docs.google.com/spreadsheets/u/1/d/1iddIAdRYmjJ4oLntbFuMuIkr8q-ROPwNIK4SPZeRXAU/edit?usp=drive_web&ouid=103528964548350266766> NE Teams at Worlds Link </a>
+    <br>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRpokcE9EGWnu7CcCEbTrS2xxTJ937C6-nnpSGCkD8XwiI68dcUFuC1Kw9PehfAlJtqw3vbWxjZhj0P/pubhtml?widget=true&amp;headers=false" width="600" height="600"></iframe>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQsUn1jwSMdyHeCPBDs00sk_awXbOBQBbF74411Px1dGToo6iFtKOiJS-R1igGR2x9HQRkmX0bbtK9e/pubhtml?widget=true&amp;headers=false"width="600" height="600"></iframe>
+  <hr>
+   <h3 h3 id ="myHeader3" >Useful Python Code </h3>
+   <script src="//onlinegdb.com/embed/js/ryJMq7A9N?theme=dark"></script>
+
+  <hr>
+   <h3 id ="myHeader4"> Tableau ness </h3>
+   <p style="font-family:'Courier New'" >
+    Thank you to 1918 NC Gears.</p>
+   <div class='tableauPlaceholder' id='viz1556131398657' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F5&#47;F5RRQYM3S&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='views&#47;DeepSpace2019FRCOverview&#47;GameElements?:embed=y' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;F5&#47;F5RRQYM3S&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1556131398657');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='1200px';vizElement.style.height='627px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  <hr>
+   <h3> Pictures of Ducks and 1 Pancake </h3>
+    <script src="script.js"></script>
+    <img src="https://images-na.ssl-images-amazon.com/images/I/8166xCVDGnL._SY355_.jpg" style="width:70px;height:70px;" >
+   <img src="https://images.homedepot-static.com/productImages/80b468aa-85b7-4493-9ee7-4372c3753d21/svn/globe-electric-incandescent-night-lights-8968901-64_1000.jpg" style="width:70px;height:70px;">
+     <img src="https://d3awvtnmmsvyot.cloudfront.net/api/file/6fTZjAw9Tjqf4XrddmRQ" style="width:120px;height:70px;">
+
+  </body>
+</html>
+
+
